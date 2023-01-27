@@ -9,10 +9,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-    let sumValue = a + b;
-    let message = `The sum of ${a} and ${b} is ${sumValue}.`;
-    return [sumValue, message];
-
+  let sumValue = a + b;
+  let message = `The sum of ${a} and ${b} is ${sumValue}.`;
+  return [sumValue, message];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -30,11 +29,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  let productSum = a * b;
+  let productString = `The product of ${a} and ${b} is ${productSum}.`;
+  return [productSum, productString];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5, 9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
