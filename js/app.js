@@ -80,7 +80,7 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) { //eslint-disable-line
   let tracker =0;
   for(let i = 0; i < sumArr.length; i++ ){
-    let tempSum = tracker + sumArr[i];
+    let tempSum = sum(tracker, sumArr[i])[0];
     tracker = tempSum;
   }
   sumArr = tracker;
